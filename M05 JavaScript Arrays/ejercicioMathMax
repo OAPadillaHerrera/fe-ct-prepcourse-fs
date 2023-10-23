@@ -1,0 +1,22 @@
+
+var array = [];
+
+var num = 8;
+
+   for (let i = 0; i < 10; i++) {
+      
+      if (i === 5) {
+
+        continue;   
+      
+      } else {
+
+         num =  num + 2; 
+         
+         array.push (num);
+
+      }
+   
+   } 
+      
+console.log (array);
