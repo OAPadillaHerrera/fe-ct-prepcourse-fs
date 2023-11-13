@@ -1,13 +1,6 @@
 
+var string = "BURRO";   
+       
+stringInvertida = string.split ('').reverse ().join ('');
 
-var objetoProducto = {precio: 10, porcentajeDeDescuento: 0.2};
-
-objetoProducto.calcularPrecioDescuento = function() {
-    
-    resultado = this.precio - (this.precio * this.porcentajeDeDescuento);
-
-    console.log (resultado);
-
-}
-
-console.log (objetoProducto);
+console.log (stringInvertida);
